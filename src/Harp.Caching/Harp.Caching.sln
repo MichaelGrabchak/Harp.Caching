@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harp.Caching", "Harp.Caching\Harp.Caching.csproj", "{5601D6A2-36B4-48AF-9BEF-45ADF2851BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harp.Caching.Web", "Harp.Caching.Web\Harp.Caching.Web.csproj", "{046B8A09-8852-4D5B-845E-CB2ADCB545EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5601D6A2-36B4-48AF-9BEF-45ADF2851BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5601D6A2-36B4-48AF-9BEF-45ADF2851BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5601D6A2-36B4-48AF-9BEF-45ADF2851BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5601D6A2-36B4-48AF-9BEF-45ADF2851BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046B8A09-8852-4D5B-845E-CB2ADCB545EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046B8A09-8852-4D5B-845E-CB2ADCB545EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046B8A09-8852-4D5B-845E-CB2ADCB545EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046B8A09-8852-4D5B-845E-CB2ADCB545EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04EF6E2B-AD90-48CE-98F0-3A295496688E}
+	EndGlobalSection
+EndGlobal

@@ -34,10 +34,14 @@
     <Reference Include="Harp.Common, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Harp.Common.0.1.0-alpha0001\lib\net472\Harp.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Harp.Dependencies, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Harp.Dependencies.0.1.0-alpha0001\lib\net472\Harp.Dependencies.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyConfigurations\WebCacheDependencyConfigurations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebCache.cs" />
   </ItemGroup>

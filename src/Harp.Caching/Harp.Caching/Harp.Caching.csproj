@@ -34,6 +34,9 @@
     <Reference Include="Harp.Common, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Harp.Common.0.1.0-alpha0001\lib\net472\Harp.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Harp.Dependencies, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Harp.Dependencies.0.1.0-alpha0001\lib\net472\Harp.Dependencies.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
   </ItemGroup>
@@ -41,6 +44,7 @@
     <Compile Include="Configurations\CacheConfiguration.cs" />
     <Compile Include="Configurations\ICacheConfiguration.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="DependencyConfigurations\CacheDependencyConfigurations.cs" />
     <Compile Include="ICache.cs" />
     <Compile Include="NoCache.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
